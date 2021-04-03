@@ -1,1 +1,33 @@
-Git and Github
+Plan for Mixed Messages
+
+- Create a random text generator that displays random message on the screen
+- Start each with "Did you know:"
+- Randomly choose a name out of list of
+        Varun
+        Pooja
+        Krithika
+        Keerthivasan
+        Nikhilesh
+- Randomly choose action out of:
+        went to hotel
+        went to beach
+        went for movie
+        went to park
+        went to home
+- Randomly choose a location out of list of:
+        Buhari
+        Besant Nagar
+        Inox
+        National Park
+        House
+- Randomly choose a time out of list of:
+        at 10:00 P.M.
+        at 3:30 P.M.
+        at 11:30 A.M.
+        at 6:00 P.M.
+        at 12:30 P.M.
+How to do:
+  - Create one fuction to eprform all of these
+  - Use Math.floor(Math.random * [whatever the total number of options is]) to create a random number
+  - EITHER create array to store possible answers and .push() them based on the random number
+  - return concatenation of all strings
